@@ -6,5 +6,11 @@
 // logo.svg shall be generated after all prompts are completed
 // Output text "Generated logo.svg" should be printed in command line
 
-// Install npm
+// Install npm first. npm init -y
+// Install inquirer
 // Install jest
+
+const cli = require("./lib/cli.js");
+
+// console.log(cli);
+cli();
